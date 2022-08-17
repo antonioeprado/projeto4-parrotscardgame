@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #eef9bf;
+}
+
+#container-main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1110px;
+    min-height: 629px;
+    margin: auto;  
+}
+
+#container-main > p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    letter-spacing: -0.4%;
+    color: #75b79e;
+}
+
+.container-top, .container-bot {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.carta {
+    background-image: url("../media/front.png");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 117px;
+    height: 146px;
+    background-color: #a7e9af;
+    border: 1px solid #99cea8;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 335px){
+
+    #container-main > p {
+        font-size: 36px;
+        line-height: 42.19px;
+        text-align: center;
+    }
+
+    .container-bot, .container-top {
+        flex-flow: column nowrap;
+    }
+
+    .carta {
+        margin: 34px auto;
+    }
+}

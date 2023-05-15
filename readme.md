@@ -11,3 +11,7 @@ This is a simple memory game made in Javascript. It was made when I was beginnin
 -   Click on a card to flip it, then try to find its corresponding match by fliping the other cards.
 -   Once all matches have been found, the game ends.
 -   You'll be prompted to play again, if you wish to.
+
+## License
+
+This project is licensed under the [MIT Open Source License](https://raw.githubusercontent.com/antonioeprado/projeto4-parrotscardgame/main/LICENSE).

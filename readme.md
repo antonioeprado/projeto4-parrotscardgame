@@ -6,7 +6,7 @@ This is a simple memory game made in Javascript. It was made when I was beginnin
 
 -   You can clone this repo to your machine and run a live server.
 -   The page will prompt how many cards you would like to play.
--   Accepted values are between 4 and 14.
+-   Accepted values are between **4** and **14**.
 -   Once value accepted value has been input, the timer will start.
 -   Click on a card to flip it, then try to find its corresponding match by fliping the other cards.
 -   Once all matches have been found, the game ends.
